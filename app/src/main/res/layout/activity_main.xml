@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnSuccess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_success" />
+
+            <Button
+                android:id="@+id/btnError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnSuccess"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_error" />
+
+            <Button
+                android:id="@+id/btnOnline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnError"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_online" />
+
+            <Button
+                android:id="@+id/btnOffline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnOnline"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_offline" />
+
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
