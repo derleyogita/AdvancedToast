@@ -41,6 +41,14 @@
                 android:layout_centerHorizontal="true"
                 android:text="@string/str_offline" />
 
+            <Button
+                android:id="@+id/btnInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btnOffline"
+                android:layout_centerHorizontal="true"
+                android:text="@string/str_info" />
+
         </RelativeLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

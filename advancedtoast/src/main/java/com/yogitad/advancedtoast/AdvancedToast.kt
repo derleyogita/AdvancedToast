@@ -1,10 +1,13 @@
 package com.yogitad.advancedtoast
 
 import android.app.Activity
+import android.graphics.PorterDuff
+import android.graphics.PorterDuffColorFilter
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.widget.Toast
 import androidx.core.content.ContextCompat
+import androidx.core.graphics.drawable.DrawableCompat
 import com.yogitad.advancedtoast.databinding.AdvancedToastBinding
 
 
@@ -40,6 +43,8 @@ class AdvancedToast {
                             R.drawable.wrapper_ic_success_tick
                         )
                     )
+                    //set background tint
+                    binding.rlToastBg.backgroundTintList =  ContextCompat.getColorStateList(context,R.color.bg_success_color)
 
                 }
                 ToastStyles.ERROR -> {
@@ -50,6 +55,9 @@ class AdvancedToast {
                             R.drawable.wrapper_ic_error
                         )
                     )
+                    //set background tint
+                    binding.rlToastBg.backgroundTintList =  ContextCompat.getColorStateList(context,R.color.bg_error_color)
+
                 }
                 ToastStyles.ONLINE -> { //Set Toast Image
                     binding.ivImageIcon.setImageDrawable(
@@ -58,7 +66,10 @@ class AdvancedToast {
                             R.drawable.wrapper_ic_online
                         )
                     )
+                    //set background tint
+                    binding.rlToastBg.backgroundTintList =  ContextCompat.getColorStateList(context,R.color.bg_success_color)
                 }
+
                 ToastStyles.OFFLINE -> { //Set Toast Image
                     binding.ivImageIcon.setImageDrawable(
                         ContextCompat.getDrawable(
@@ -66,6 +77,16 @@ class AdvancedToast {
                             R.drawable.wrapper_no_internet
                         )
                     )
+                    binding.rlToastBg.backgroundTintList =  ContextCompat.getColorStateList(context,R.color.bg_error_color)
+                }
+                ToastStyles.INFO -> { //Set Toast Image
+                    binding.ivImageIcon.setImageDrawable(
+                        ContextCompat.getDrawable(
+                            context,
+                            R.drawable.wrapper_ic_info
+                        )
+                    )
+                    binding.rlToastBg.backgroundTintList =  ContextCompat.getColorStateList(context,R.color.bg_info_color)
                 }
             }
             //Set title

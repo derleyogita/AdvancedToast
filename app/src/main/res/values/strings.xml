@@ -4,4 +4,5 @@
     <string name="str_error">Error</string>
     <string name="str_offline">Offline</string>
     <string name="str_online">Online</string>
+    <string name="str_info">Info</string>
 </resources>

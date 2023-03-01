@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.btnError.setOnClickListener(this)
         binding.btnOnline.setOnClickListener(this)
         binding.btnOffline.setOnClickListener(this)
+        binding.btnInfo.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -42,21 +43,28 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 this,
                 "Error",
                 "Mobile number update failed!",
-                ToastStyles.SUCCESS,
+                ToastStyles.ERROR,
                 AdvancedToast.LENGTH_LONG
             )
             R.id.btnOnline -> AdvancedToast.makeToast(
                 this,
                 "Yeah",
                 "You're online",
-                ToastStyles.SUCCESS,
+                ToastStyles.ONLINE,
                 AdvancedToast.LENGTH_LONG
             )
             R.id.btnOffline -> AdvancedToast.makeToast(
                 this,
                 "No internet",
                 "Please connect to network.",
-                ToastStyles.SUCCESS,
+                ToastStyles.OFFLINE,
+                AdvancedToast.LENGTH_LONG
+            )
+            R.id.btnInfo -> AdvancedToast.makeToast(
+                this,
+                "Info",
+                "New version is available, Please update the app.",
+                ToastStyles.INFO,
                 AdvancedToast.LENGTH_LONG
             )
         }
