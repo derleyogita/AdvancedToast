@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Toast Background Tint Colors-->
-    <color name="success_color">#FF56B35A</color>
-    <color name="error_color">#FFF44E42</color>
-    <color name="info_color">#FF2D9BF4</color>
-
     <!--Background Tint Colors-->
     <color name="bg_success_color">#77B379</color>
     <color name="bg_error_color">#F4857D</color>

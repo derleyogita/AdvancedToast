@@ -1,16 +1,15 @@
 package com.yogitad.advancedtoast
 
 import android.app.Activity
-import android.graphics.PorterDuff
-import android.graphics.PorterDuffColorFilter
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.widget.Toast
 import androidx.core.content.ContextCompat
-import androidx.core.graphics.drawable.DrawableCompat
 import com.yogitad.advancedtoast.databinding.AdvancedToastBinding
 
-
+/**
+ * Advanced Toast class - main class which contains logic of Advanced Toast functionality.
+ */
 class AdvancedToast {
 
     companion object {

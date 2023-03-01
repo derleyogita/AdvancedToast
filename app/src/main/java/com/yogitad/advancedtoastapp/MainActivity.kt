@@ -7,8 +7,14 @@ import com.yogitad.advancedtoast.AdvancedToast
 import com.yogitad.advancedtoast.ToastStyles
 import com.yogitad.advancedtoastapp.databinding.ActivityMainBinding
 
+/**
+ * Activity used to showcase demo buttons on screen to test advanced toast functionality
+ */
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
+    /**
+     * Bind main activity
+     */
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
