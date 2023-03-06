@@ -31,7 +31,7 @@ Add dependency in your app module
 
 	dependencies {
 	      
-             implementation 'com.yogitad.advancedtoast:v1.0-alpha'
+             implementation 'com.yogitad.advancedtoast:1.0'
 	}
 
 
