@@ -35,6 +35,15 @@ Add dependency in your app module
              implementation 'com.yogitad.advancedtoast:1.0'
 	}
 
+## Add dataBinding in your app module
+
+```
+buildFeatures {
+dataBinding = true
+
+    }
+```
+
 
 ## Usage 
 
@@ -52,13 +61,39 @@ AdvancedToast.makeToast(
             )
 ```            
 ### Error Toast
-
 ```   
  AdvancedToast.makeToast(
                 this,
                 "Error",
                 "Mobile number update failed!",
                 ToastStyles.ERROR,
+                AdvancedToast.LENGTH_LONG)
+```
+### ONLINE Toast
+```   
+ AdvancedToast.makeToast(
+                this,
+                "Yeah",
+                "You're online",
+                ToastStyles.ONLINE,
+                AdvancedToast.LENGTH_LONG)
+```
+### OFFLINE Toast
+```   
+ AdvancedToast.makeToast(
+                this,
+                "No internet",
+                "Please connect to network.",
+                ToastStyles.OFFLINE,
+                AdvancedToast.LENGTH_LONG)
+```
+### INFO Toast
+```   
+ AdvancedToast.makeToast(
+                this,
+                "Info",
+                "New version is available, Please update the app.",
+                ToastStyles.INFO,
                 AdvancedToast.LENGTH_LONG)
 ```
 ## Screenshots
