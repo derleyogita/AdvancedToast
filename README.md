@@ -62,7 +62,7 @@ AdvancedToast.makeToast(
 ```
 ## Screenshots
 
-<img src="https://github.com/derleyogita/AdvancedToast/blob/master/app/src/main/res/drawable/homescreen.jpg" width="200"> <img src="https://github.com/derleyogita/AdvancedToast/blob/master/app/src/main/res/drawable/success.jpg" width="200"><img src="https://github.com/derleyogita/AdvancedToast/blob/master/app/src/main/res/drawable/error.jpg" width="200"><img src="https://github.com/derleyogita/AdvancedToast/blob/master/app/src/main/res/drawable/online.jpg" width="200"><img src="https://github.com/derleyogita/AdvancedToast/blob/master/app/src/main/res/drawable/offline.jpg" width="200">
+<img src="https://github.com/derleyogita/AdvancedToast/blob/master/app/src/main/res/drawable/homescreen.jpg" width="200"> <img src="https://github.com/derleyogita/AdvancedToast/blob/master/app/src/main/res/drawable/success.jpg" width="200"><img src="https://github.com/derleyogita/AdvancedToast/blob/master/app/src/main/res/drawable/error.jpg" width="200"><img src="https://github.com/derleyogita/AdvancedToast/blob/master/app/src/main/res/drawable/online.jpg" width="200"><img src="https://github.com/derleyogita/AdvancedToast/blob/master/app/src/main/res/drawable/offline.jpg" width="200"><img src="https://github.com/derleyogita/AdvancedToast/blob/master/app/src/main/res/drawable/infotoast.jpg" width="200">
 
 ## Author- Yogita Derle
 ## This is my practice project.
