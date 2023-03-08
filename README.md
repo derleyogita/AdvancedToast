@@ -2,6 +2,7 @@
 
 # Advanced Toast - Toast Library using Kotlin
 
+[![](https://jitpack.io/v/derleyogita/AdvancedToast.svg)](https://jitpack.io/#derleyogita/AdvancedToast)
 
 ## About
 
