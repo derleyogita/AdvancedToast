@@ -1,55 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="16dp"
-            android:gravity="center">
-
-            <Button
-                android:id="@+id/btnSuccess"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:text="@string/str_success" />
-
-            <Button
-                android:id="@+id/btnError"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/btnSuccess"
-                android:layout_centerHorizontal="true"
-                android:text="@string/str_error" />
-
-            <Button
-                android:id="@+id/btnOnline"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/btnError"
-                android:layout_centerHorizontal="true"
-                android:text="@string/str_online" />
-
-            <Button
-                android:id="@+id/btnOffline"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/btnOnline"
-                android:layout_centerHorizontal="true"
-                android:text="@string/str_offline" />
-
-            <Button
-                android:id="@+id/btnInfo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/btnOffline"
-                android:layout_centerHorizontal="true"
-                android:text="@string/str_info" />
-
-        </RelativeLayout>
+        <Button
+            android:id="@+id/btnSuccess"
+             style="@style/custom_btn"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintHeight_percent="0.061"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.3"
+            android:text="@string/str_success"
+           />
+        <Button
+            android:id="@+id/btnError"
+            style="@style/custom_btn"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintHeight_percent="0.061"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnSuccess"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.035"
+            android:text="@string/str_error"/>
+        <Button
+            android:id="@+id/btnOnline"
+            style="@style/custom_btn"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintHeight_percent="0.061"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnError"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.035"
+            android:text="@string/str_online"/>
+        <Button
+            android:id="@+id/btnOffline"
+            style="@style/custom_btn"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintHeight_percent="0.061"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnOnline"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.035"
+            android:text="@string/str_offline"/>
+        <Button
+            android:id="@+id/btnInfo"
+             style="@style/custom_btn"
+            app:layout_constraintWidth_percent="0.9"
+            app:layout_constraintHeight_percent="0.061"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnOffline"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.035"
+            android:text="@string/str_info" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

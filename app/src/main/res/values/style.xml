@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="custom_btn">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textColor">@color/custom_btn</item>
+        <item name="android:background">@drawable/custom_btn</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">italic</item>
+
+    </style>
+</resources>
